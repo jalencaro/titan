@@ -1,4 +1,4 @@
-# Rooms ![Travis Status](https://travis.ibm.com/breaking-bug/rooms.svg?token=56BqYShvaLLncMxTYbog&branch=master)
+# Talents
 Implements the backend used on rooms application
 
 ## API Documentation
