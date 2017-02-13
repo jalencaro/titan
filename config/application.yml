@@ -1,0 +1,11 @@
+local:
+  port: 3000
+
+development:
+  port: {{ process.env.PORT }}
+  
+test:
+  port: {{ process.env.PORT }}
+
+production:
+  port: {{ process.env.PORT }}

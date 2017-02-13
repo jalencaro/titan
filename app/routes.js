@@ -1,0 +1,20 @@
+const routes         = require('ike-router')(`${__dirname}/../app/controllers/`)
+
+////////////////////
+// Interceptor    //
+////////////////////
+
+////////////////////
+// Generic Routes //
+////////////////////
+routes.get('/status', 'status#index')
+
+/////////////////////
+// MOBILE APP      //
+/////////////////////
+
+/////////////////////
+// ADMIN PANEL     //
+/////////////////////
+
+module.exports = routes.draw();

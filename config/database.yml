@@ -1,0 +1,27 @@
+default: &default
+  adapter: mongoose
+  options:
+    db:
+      native_parser: true
+    server:
+      poolSize: 5
+
+local:
+  <<: *default
+  uri: mongodb://localhost/
+  name: titan_local
+
+development:
+  <<: *default
+  uri: {{ process.env.MONGODB_URI }}
+  name: titan
+
+test:
+  <<: *default
+  uri: {{ process.env.MONGODB_URI }}
+  name: titan
+
+production:
+  <<: *default
+  uri: {{ process.env.MONGODB_URI }}
+  name: titan
