@@ -22,7 +22,3 @@ Allow user to use the API of this application
 	status: "live"
 }
 ``` 
-
-###### Contributing
-
- Jalencar
