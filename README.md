@@ -1,4 +1,4 @@
-# Talents
+# Titan
 Implements the backend used on rooms application
 
 ## API Documentation
